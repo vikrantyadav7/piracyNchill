@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "857485753574",
+    "project_id": "mttv-f0792",
+    "storage_bucket": "mttv-f0792.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857485753574:android:b24f5996a0d6ec7ea1cf27",
+        "android_client_info": {
+          "package_name": "com.example.mttv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857485753574-4p1emojmeb6si8nn95llptu09sgnr7mv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mttv",
+            "certificate_hash": "35e5cab74514dd34800ddd49d08fb170efc616fd"
+          }
+        },
+        {
+          "client_id": "857485753574-7e59g091v6rf8905r7sdh390nmm2uhv4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcFzYdcZcKaDQU2axFm-zhflcSgoq2fTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857485753574-7e59g091v6rf8905r7sdh390nmm2uhv4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
