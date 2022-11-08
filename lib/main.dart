@@ -2,10 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/services.dart';
 import 'package:mttv/Dashboard.dart';
-import 'package:mttv/playout.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
-import 'home_page.dart';
+import 'player.dart';
 import 'package:wakelock/wakelock.dart';
 
 
@@ -34,6 +33,8 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
             brightness:Brightness.dark,
           visualDensity: VisualDensity.adaptivePlatformDensity,
+          bottomSheetTheme: BottomSheetThemeData(
+              backgroundColor: Colors.black.withOpacity(0)),
         ),
         home: const Dashboard(),
       );},

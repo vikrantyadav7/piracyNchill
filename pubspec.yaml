@@ -36,16 +36,18 @@ dependencies:
   cupertino_icons: ^1.0.2
   firebase_core: ^1.20.1
   cloud_firestore:
-  firebase_auth:
-  google_sign_in:
-  googleapis:
+#  firebase_auth:
+#  google_sign_in:
+#  googleapis:
   http: ^0.13.5
-  better_player: ^0.0.83
+#  better_player: ^0.0.83
   path_provider: ^2.0.11
   audio_video_progress_bar: ^0.10.0
   wakelock: ^0.6.2
   carousel_slider: ^4.1.1
   responsive_sizer: ^3.1.1
+  flutter_vlc_player:
+
 
 
 

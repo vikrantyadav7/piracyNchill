@@ -30,6 +30,7 @@ class DpadContainerState extends State<DpadContainer> {
   late FocusNode node;
   bool isFocused = false;
 
+
   @override
   void initState() {
     super.initState();
@@ -47,6 +48,7 @@ class DpadContainerState extends State<DpadContainer> {
   @override
   void dispose() {
     node.removeListener(_handleFocusChange);
+    // widget.onFocus(false);
     node.dispose();
     super.dispose();
   }
@@ -55,11 +57,10 @@ class DpadContainerState extends State<DpadContainer> {
   Widget build(BuildContext context) {
     return RawKeyboardListener(
       focusNode: node,
-      onKey: (RawKeyEvent event) {
+      onKey: (RawKeyEvent event){
         setState(() {
           isFocused = !isFocused;
         });
-
         widget.onFocus(isFocused);
 
         if (event is RawKeyDownEvent && event.data is RawKeyEventDataAndroid) {
